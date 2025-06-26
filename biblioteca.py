@@ -25,3 +25,7 @@ personas = [
     {"nombre": "Valentina", "apellido": "Contreras", "rut": "15592214-1", "libros": []},
     {"nombre": "Tomás", "apellido": "Silva", "rut": "10516040-5", "libros": []}
 ]
+
+for persona in personas:
+    print(persona["nombre"])
+    
